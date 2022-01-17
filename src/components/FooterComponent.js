@@ -23,8 +23,8 @@ function Footer(props) {
               </li>
             </ul>
           </div> */}
-          <div className="col-12 text-center py-3">
-            <h5>Redes Sociais</h5>
+          <div className="col-12 text-center mt-5 py-3">
+            <h4>Redes Sociais</h4>
             <a href="http://instagram.com/">
               <i class="fa fa-instagram"></i>
             </a>
@@ -35,7 +35,7 @@ function Footer(props) {
               <i class="fa fa-whatsapp pr-2"></i>
             </a>
             <a href="http://www.whatsapp.com/">
-              <i class="fa fa-envelope"></i>
+              <i class="fa fa-envelope-o"></i>
             </a>
           </div>
 
