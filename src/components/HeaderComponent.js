@@ -52,17 +52,13 @@ class Header extends Component {
               <Nav className="mx-auto" navbar>
                 <NavItem>
                   <NavLink className="nav-link" href="#">
-                    Comprar
+                    Página Inicial
                   </NavLink>
                 </NavItem>
+
                 <NavItem>
                   <NavLink className="nav-link" href="#">
-                    Vender
-                  </NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink className="nav-link" href="#">
-                    Financiamento
+                    Imóveis
                   </NavLink>
                 </NavItem>
                 <NavItem>
@@ -105,11 +101,11 @@ class Header extends Component {
           <div class="py-5 text-center container">
             <div class="row py-lg-5">
               <div class="col-lg-6 col-md-8 mx-auto">
-                <h1 class="fw-light">Imóveis em Destaque</h1>
-                <p class="lead">
-                  Os melhores imóveis da região de Sao Paulo para você. Serviço
-                  personalizado ao cliente. Consultoria, financiamento, compra,
-                  e venda. Estou pronto a atende-lo.
+                <h1 class="fw-light pt-4">Excelência em Serviço</h1>
+                <p class="lead mt-4">
+                  Os melhores imóveis da região de São Paulo para você. Serviço
+                  personalizado ao cliente: Consultoria, financiamento, compra,
+                  e venda. Estou pronto a atende-lo!
                 </p>
                 {/* <!-- assinatura em letra cursiva --> */}
                 <i class="">Waldemar Dela Marta</i>

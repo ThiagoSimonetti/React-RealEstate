@@ -8,7 +8,7 @@ import { InitialFeedback } from "./forms";
 export const ConfigureStore = () => {
   const store = createStore(
     combineReducers({
-      home: initialState,
+      homes: Reducer,
       ...createForms({
         feedbackForm: InitialFeedback,
       }),
