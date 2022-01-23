@@ -31,12 +31,12 @@ function Footer(props) {
             <a href="http://www.facebook.com/">
               <i className="fa fa-facebook px-2"></i>
             </a>
-            <a href="http://www.whatsapp.com/">
+            <a href="https://wa.me/14088496470" target="_blank" >
               <i className="fa fa-whatsapp pr-2"></i>
             </a>
-            <a href="https://wa.me/14088496470" target="_blank" > (408) 849-6470
+            {/* <a href="http://www.whatsapp.com/">
               <i className="fa fa-envelope-o"></i>
-            </a>
+            </a> */}
           </div>
 
           <div className="col-12 text-center">
