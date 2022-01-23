@@ -34,7 +34,7 @@ function Footer(props) {
             <a href="http://www.whatsapp.com/">
               <i className="fa fa-whatsapp pr-2"></i>
             </a>
-            <a href="http://www.whatsapp.com/">
+            <a href="https://wa.me/14088496470" target="_blank" > (408) 849-6470
               <i className="fa fa-envelope-o"></i>
             </a>
           </div>

@@ -68,17 +68,7 @@ class Header extends Component {
                 </NavItem>
               </Nav>
               <NavbarText>
-                <a
-                  class="text-nowrap"
-                  role="button"
-                  // click should activate Whatsapp communication
-                  data-target="#"
-                  onclick={() => {
-                    console.log("test");
-                  }}
-                >
-                  <i class="fa fa-whatsapp navwhatsapp"></i> (11) 9123-4567
-                </a>
+                <a href="https://wa.me/14088496470" target="_blank" ><i class="fa fa-whatsapp fa-2x"></i> (408) 849-6470</a>
               </NavbarText>
             </Collapse>
           </Navbar>
