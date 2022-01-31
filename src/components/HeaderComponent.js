@@ -8,7 +8,7 @@ import {
   NavItem,
   NavLink,
 } from "reactstrap";
-import NavbarText from "reactstrap/lib/NavbarText";
+// import NavbarText from "reactstrap/lib/NavbarText";
 // import { NavLink } from "react-router-dom";
 
 class Header extends Component {
@@ -52,12 +52,6 @@ class Header extends Component {
               <Nav className="mx-auto" navbar>
                 <NavItem>
                   <NavLink className="nav-link" href="#">
-                    Página Inicial
-                  </NavLink>
-                </NavItem>
-
-                <NavItem>
-                  <NavLink className="nav-link" href="#">
                     Imóveis
                   </NavLink>
                 </NavItem>
@@ -67,9 +61,11 @@ class Header extends Component {
                   </NavLink>
                 </NavItem>
               </Nav>
-              <NavbarText>
-                <a href="https://wa.me/14088496470" target="_blank" ><i class="fa fa-whatsapp fa-2x"></i> (408) 849-6470</a>
-              </NavbarText>
+              <div>
+                <a href="https://wa.me/14088496470" target="_blank">
+                  <i class="fa fa-whatsapp"></i> (408) 849-6470
+                </a>
+              </div>
             </Collapse>
           </Navbar>
           {/* <div class="hero-text-box text-center">
@@ -95,7 +91,7 @@ class Header extends Component {
                 <p class="lead mt-4">
                   Os melhores imóveis da região de São Paulo para você. Serviço
                   personalizado ao cliente: Consultoria, financiamento, compra,
-                  e venda. Estou pronto a atende-lo!
+                  e venda. Estou pronto a atendê-lo!
                 </p>
                 {/* <!-- assinatura em letra cursiva --> */}
                 <i class="">Waldemar Dela Marta</i>

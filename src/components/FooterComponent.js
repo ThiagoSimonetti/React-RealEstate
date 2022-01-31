@@ -24,19 +24,16 @@ function Footer(props) {
             </ul>
           </div> */}
           <div className="col-12 text-center py-3">
-            <h4>Redes Sociais</h4>
+            <h3 className="mb-3">Redes Sociais</h3>
             <a href="http://instagram.com/">
               <i className="fa fa-instagram"></i>
             </a>
             <a href="http://www.facebook.com/">
-              <i className="fa fa-facebook px-2"></i>
+              <i className="fa fa-facebook px-3"></i>
             </a>
-            <a href="https://wa.me/14088496470" target="_blank" >
+            <a href="https://wa.me/14088496470" target="_blank">
               <i className="fa fa-whatsapp pr-2"></i>
             </a>
-            {/* <a href="http://www.whatsapp.com/">
-              <i className="fa fa-envelope-o"></i>
-            </a> */}
           </div>
 
           <div className="col-12 text-center">
@@ -57,10 +54,10 @@ function Footer(props) {
             </a>
           </div>
           <div className="col text-center mt-4">
-            <span>
+            <h6>
               Built with ❤️ in California by Thiago and Washington. Todos
               direitos reservados.
-            </span>
+            </h6>
           </div>
         </div>
       </div>

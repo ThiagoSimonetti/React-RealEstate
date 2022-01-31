@@ -25,19 +25,25 @@ h2 {
   background-attachment: fixed;
 }
 
+.section-1 a {
+  color: white;
+}
+
+.section-1 a:hover {
+  color: #4bb543;
+  text-decoration: none;
+}
+
+.section-1 .fa-whatsapp {
+  font-size: 18px;
+}
+
 .btn-outline-success {
   color: white;
 }
 
 .hero-text-box {
   margin-top: 25%;
-}
-
-.site-footer {
-  background-color: #2c2d3a;
-  color: white;
-  font-size: 20px;
-  padding: 20px 0;
 }
 
 .title-padding {
@@ -56,26 +62,34 @@ h2 {
   background-attachment: fixed;
 }
 
+.site-footer {
+  background-color: #2c2d3a;
+  color: white;
+  font-size: 25px;
+  padding: 20px 0;
+}
+
 .card-footer {
   padding-bottom: 5px;
 }
 
-a {
+.site-footer a {
   color: white;
 }
 
-a:hover {
+.site-footer a:hover {
   color: #4bb543;
   text-decoration: none;
 }
 
-.fa-instagram,
+/* .fa-instagram,
 .fa-facebook,
 .fa-whatsapp,
 .fa-envelope {
-  font-size: 30px;
-}
+  font-size: 20px;
+} */
 
+/* 
 .navwhatsapp {
   font-size: 20px;
-}
+} */

@@ -84,7 +84,8 @@ class Contact extends Component {
                 <Form
                   model="feedbackForm"
                   onSubmit={(values) => this.handleSubmit(values)}
-                  action="https://formsubmit.co/washingtonluismm@gmail.com" method="POST"
+                  action="https://formsubmit.co/tbtsimon7@gmail.com"
+                  method="POST"
                 >
                   <Row className="form-group">
                     {/* <Label htmlFor="firstName" md={2}>
@@ -195,7 +196,11 @@ class Contact extends Component {
                         }}
                       />
                       {/* falta criar um component com mensagem de sucesso e um botao pra retornar ao menu inicial */}
-                      <input type="hidden" name="_next" value="https://fairyhandsdoula.com/thanks.html"/>
+                      <input
+                        type="hidden"
+                        name="_next"
+                        value="https://fairyhandsdoula.com/thanks.html"
+                      />
 
                       <Errors
                         className="bg-danger text-white rounded"
