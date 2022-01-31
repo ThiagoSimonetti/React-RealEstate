@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Home from "./HomeComponent";
 import Header from "./HeaderComponent";
 import Footer from "./FooterComponent";
 import Contact from "./ContactComponent";
@@ -15,6 +16,7 @@ class Main extends Component {
     return (
       <div>
         <Header />
+        <Home />
         <Directory homes={this.props.homes} />
         <Contact />
         <Footer />
