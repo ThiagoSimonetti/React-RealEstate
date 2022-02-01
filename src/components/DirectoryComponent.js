@@ -1,19 +1,37 @@
 import React from "react";
-import { Card, CardImg, CardImgOverlay, CardTitle } from "reactstrap";
+import { Card, CardImg, CardImgOverlay, CardTitle, Button } from "reactstrap";
 import { Link } from "react-router-dom";
+import CardBody from "reactstrap/lib/CardBody";
+import CardText from "reactstrap/lib/CardText";
+import CardFooter from "reactstrap/lib/CardFooter";
 // import { Loading } from "./LoadingComponent";
 // import { baseUrl } from "../shared/baseUrl";
 
 function RenderDirectoryItem({ home }) {
   return (
-    <Card>
-      {/* <Link to={`/directory/${home.id}`}> */}
-      <CardImg width="100%" src={home.image} alt={home.title} />
-      <CardImgOverlay>
-        <CardTitle>{home.title}</CardTitle>
-      </CardImgOverlay>
-      {/* </Link> */}
-    </Card>
+    <div className="col pb-5">
+      <Card className="h-100 shadow-sm">
+        {/* <Link to={`/directory/${home.id}`}> */}
+        <CardImg
+          className="card-img-top"
+          width="100%"
+          src={home.image}
+          alt={home.title}
+        />
+        <CardBody>
+          <CardTitle className="text-center">{home.title}</CardTitle>
+          <CardText>
+            Lorem ipsum dolor sit amet, quando eruditi tacimates eu pri. Dicta
+            vocent democritum pri ea, per ut dicat atqui placerat. Quas soleat
+            hendrerit at his, ut eos veritus expetendis, modus.
+          </CardText>
+        </CardBody>
+        <CardFooter className="bg-transparent border-top-0 mb-3 d-flex justify-content-center">
+          <Button className="btn btn-sm btn-success">Mais Informações</Button>
+        </CardFooter>
+        {/* </Link> */}
+      </Card>
+    </div>
   );
 }
 
@@ -49,7 +67,7 @@ function Directory(props) {
   // }
   return (
     <React.Fragment>
-      <div className="py-5 text-center container">
+      <div className="container py-5 text-center">
         <div className="row py-lg-5">
           <div className="col-lg-6 col-md-8 mx-auto">
             <h1 className="fw-light">Imóveis em Destaque</h1>
@@ -61,28 +79,10 @@ function Directory(props) {
           </div>
         </div>
       </div>
-      <div className="pb-5 px-5 featuredHomes">
-        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
-          {directory}
-        </div>
+      <div className="container pb-5 px-5">
+        <div className="row">{directory}</div>
       </div>
     </React.Fragment>
-
-    // <div className="container">
-    //   <div className="row">
-    //     <div className="col text-center py-5">
-    //       <h1 className="fw-light">Imovéis em Destaque</h1>
-    //       <p className="lead text-muted">
-    //         Lorem ipsum dolor sit amet, quando eruditi tacimates eu pri. Dicta
-    //         vocent democritum pri ea, per ut dicat atqui placerat. Quas soleat
-    //         hendrerit at his, ut eos veritus expetendis, modus.
-    //       </p>
-    //       <hr />
-    //     </div>
-    //     <hr />
-    //   </div>
-    //   <div className="row">{directory}</div>
-    // </div>
   );
 }
 
