@@ -5,6 +5,7 @@ import Footer from "./FooterComponent";
 import Contact from "./ContactComponent";
 import Directory from "./DirectoryComponent";
 import { connect } from "react-redux";
+import { Route } from "react-router-dom";
 
 const mapStateToProps = (state) => {
   return { homes: state.homes };
@@ -13,6 +14,7 @@ const mapStateToProps = (state) => {
 class Main extends Component {
   render() {
     console.log("homes", this.props.homes);
+
     return (
       <div>
         <Header />

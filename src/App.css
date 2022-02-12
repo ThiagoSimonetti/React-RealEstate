@@ -83,6 +83,10 @@ h2 {
   padding: 20px 0;
 }
 
+.site-footer p {
+  font-size: 14px;
+}
+
 .card-footer {
   padding-bottom: 5px;
 }

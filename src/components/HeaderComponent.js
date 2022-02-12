@@ -8,7 +8,9 @@ import {
   NavItem,
   NavLink,
 } from "reactstrap";
+import Scroll from "react-scroll";
 import Button from "reactstrap/lib/Button";
+import scroller from "react-scroll/modules/mixins/scroller";
 // import NavbarText from "reactstrap/lib/NavbarText";
 // import { NavLink } from "react-router-dom";
 
@@ -38,7 +40,17 @@ class Header extends Component {
         // className="bg-trasparent"
         className="bg-navbar"
       >
-        <NavbarBrand href="/">WdM Imóveis</NavbarBrand>
+        <NavbarBrand
+          href="/"
+          // onClick={() =>
+          //   scroller.scrollTo("home_id", {
+          //     smooth: true,
+          //     duration: 1000,
+          //   })
+          // }
+        >
+          WdM Imóveis
+        </NavbarBrand>
         {/* <NavbarBrand className="mr-auto" href="/">
               <img
                 src="/assets/images/logo.png"
@@ -51,12 +63,30 @@ class Header extends Component {
         <Collapse isOpen={this.state.isNavOpen} navbar>
           <Nav className="mx-auto" navbar>
             <NavItem>
-              <NavLink className="nav-link" href="#">
+              <NavLink
+                className="nav-link"
+                href="#directory_id"
+                onClick={() =>
+                  scroller.scrollTo("directory_id", {
+                    smooth: true,
+                    duration: 1000,
+                  })
+                }
+              >
                 Imóveis
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="nav-link" href="#">
+              <NavLink
+                className="nav-link"
+                href="#contact_id"
+                onClick={() =>
+                  scroller.scrollTo("contact_id", {
+                    smooth: true,
+                    duration: 1000,
+                  })
+                }
+              >
                 Contato
               </NavLink>
             </NavItem>

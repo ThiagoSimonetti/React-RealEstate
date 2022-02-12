@@ -54,10 +54,10 @@ function Footer(props) {
             </a>
           </div>
           <div className="col text-center mt-4">
-            <h6>
+            <p>
               Built with ❤️ in California by Thiago and Washington. Todos
               direitos reservados.
-            </h6>
+            </p>
           </div>
         </div>
       </div>

@@ -42,7 +42,7 @@ class Contact extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="contact-us">
+        <div className="contact-us" id="contact_id">
           <div className="container">
             <div className="row">
               <div className="col text-center py-5">
@@ -74,7 +74,7 @@ class Contact extends Component {
               <i className="fa fa-envelope-o" /> campsites@nucamp.co
             </a>
           </div>
-        </div> */}
+          </div> */}
             <div className="row row-content">
               <div className="col-12 text-center">
                 <h3>Estamos Prontos à Atende-lo</h3>
