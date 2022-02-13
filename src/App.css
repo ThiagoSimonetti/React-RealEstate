@@ -20,8 +20,6 @@ h2 {
 .bg-navbar {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(./images/sao-paulo2.jpg);
-
-  /* background-color: #242546; */
 }
 
 .section-1 {
@@ -63,7 +61,6 @@ h2 {
 }
 
 .contact-us {
-  /* background-color: rgb(153, 153, 127); */
   color: white;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(./images/sao-paulo1.jpg);
@@ -75,8 +72,6 @@ h2 {
 }
 
 .site-footer {
-  /* background-color: #242546; */
-
   background-color: #2c2d3a;
   color: white;
   font-size: 25px;

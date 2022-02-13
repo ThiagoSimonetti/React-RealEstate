@@ -14,7 +14,7 @@ class Home extends Component {
                   personalizado ao cliente: Consultoria, financiamento, compra,
                   e venda. Estou pronto a atendê-lo!
                 </p>
-                {/* <!-- assinatura em letra cursiva --> */}
+
                 <i className="signature">Waldemar Dela Marta</i>
               </div>
             </div>

@@ -8,16 +8,12 @@ import {
   ModalBody,
   ModalHeader,
 } from "reactstrap";
-import { Link } from "react-router-dom";
+
 import CardBody from "reactstrap/lib/CardBody";
 import CardText from "reactstrap/lib/CardText";
 import CardFooter from "reactstrap/lib/CardFooter";
 import ModalFooter from "reactstrap/lib/ModalFooter";
 
-// import { Loading } from "./LoadingComponent";
-// import { baseUrl } from "../shared/baseUrl";
-
-// class RenderDirectoryItem extends Component({ home }) {
 class RenderDirectoryItem extends Component {
   constructor(props) {
     super(props);
@@ -52,7 +48,6 @@ class RenderDirectoryItem extends Component {
     return (
       <React.Fragment>
         <Card className="h-100 shadow-sm">
-          {/* <Link to={`/directory/${home.id}`}> */}
           <CardImg
             className="card-img-top"
             width="100%"
@@ -77,13 +72,11 @@ class RenderDirectoryItem extends Component {
               Mais Informações
             </Button>
           </CardFooter>
-
-          {/* </Link> */}
         </Card>
         <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
           <ModalHeader toggle={this.toggleModal}>Fotos</ModalHeader>
           <ModalBody>
-            {this.props.home.images.forEach((img) => {
+            {this.props.home.images.map((img, i) => {
               console.log("image arr", img);
               return (
                 <CardImg
@@ -91,48 +84,12 @@ class RenderDirectoryItem extends Component {
                   width="100%"
                   src={img}
                   alt={img}
+                  key={i}
                 />
               );
             })}
 
             {/* {this.renderImages(this.props.home.images)} */}
-
-            {/* <CardImg
-              className="card-img-top mb-2"
-              width="100%"
-              src={this.props.home.images[0]}
-              alt={this.props.home.title}
-            />
-            <CardImg
-              className="card-img-top"
-              width="100%"
-              src={this.props.home.images[1]}
-              alt={this.props.home.title}
-            />
-            <CardImg
-              className="card-img-top"
-              width="100%"
-              src={this.props.home.images[2]}
-              alt={this.props.home.title}
-            />
-            <CardImg
-              className="card-img-top"
-              width="100%"
-              src={this.props.home.images[3]}
-              alt={this.props.home.title}
-            />
-            <CardImg
-              className="card-img-top"
-              width="100%"
-              src={this.props.home.images[4]}
-              alt={this.props.home.title}
-            />
-            <CardImg
-              className="card-img-top"
-              width="100%"
-              src={this.props.home.images[2]}
-              alt={this.props.home.title}
-            /> */}
           </ModalBody>
         </Modal>
       </React.Fragment>

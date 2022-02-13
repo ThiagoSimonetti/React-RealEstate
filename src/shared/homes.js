@@ -10,11 +10,11 @@ export const HOMES = [
     description:
       "Lorem ipsum dolor sit amet, quando eruditi tacimates eu pri. Dicta vocent democritum pri ea, per ut dicat atqui placerat. Quas soleat hendrerit at his, ut eos veritus expetendis, modus.",
     images: [
-      "/assets/images/house1.jpeg",
-      "/assets/images/house2.jpeg",
-      "/assets/images/house3.jpeg",
-      "/assets/images/house4.jpeg",
-      "/assets/images/house5.jpeg",
+      "/assets/images/interior1.jpeg",
+      "/assets/images/interior2.jpeg",
+      "/assets/images/interior3.jpeg",
+      "/assets/images/interior4.jpeg",
+      "/assets/images/interior5.jpeg",
     ],
   },
   {
@@ -28,11 +28,11 @@ export const HOMES = [
     description:
       "Lorem ipsum dolor sit amet, quando eruditi tacimates eu pri. Dicta vocent democritum pri ea, per ut dicat atqui placerat. Quas soleat hendrerit at his, ut eos veritus expetendis, modus.",
     images: [
-      "/assets/images/house1.jpeg",
-      "/assets/images/house3.jpeg",
-      "/assets/images/house2.jpeg",
-      "/assets/images/house4.jpeg",
-      "/assets/images/house6.jpeg",
+      "/assets/images/interior6.jpeg",
+      "/assets/images/interior2.jpeg",
+      "/assets/images/interior3.jpeg",
+      "/assets/images/interior4.jpeg",
+      "/assets/images/interior5.jpeg",
     ],
   },
   {

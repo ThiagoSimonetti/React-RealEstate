@@ -50,31 +50,6 @@ class Contact extends Component {
               </div>
             </div>
 
-            {/* <div className="row row-content align-items-center">
-          <div className="col-sm-4">
-            <h5>Our Address</h5>
-            <address>
-              1 Nucamp Way
-              <br />
-              Seattle, WA 98001
-              <br />
-              U.S.A.
-            </address>
-          </div>
-          <div className="col">
-            <a role="button" className="btn btn-link" href="tel:+12065551234">
-              <i className="fa fa-phone" /> 1-206-555-1234
-            </a>
-            <br />
-            <a
-              role="button"
-              className="btn btn-link"
-              href="mailto:fakeemail@fakeemail.co"
-            >
-              <i className="fa fa-envelope-o" /> campsites@nucamp.co
-            </a>
-          </div>
-          </div> */}
             <div className="row row-content">
               <div className="col-12 text-center">
                 <h3>Estamos Prontos à Atende-lo</h3>
@@ -95,7 +70,7 @@ class Contact extends Component {
                       <Control.text
                         model=".firstName"
                         id="firstName"
-                        name="firstName"
+                        name="Nome"
                         placeholder="Nome"
                         className="form-control"
                         validators={{
@@ -125,7 +100,7 @@ class Contact extends Component {
                       <Control.text
                         model=".lastName"
                         id="lastName"
-                        name="lastName"
+                        name="Sobrenome"
                         placeholder="Sobrenome"
                         className="form-control"
                         validators={{
@@ -155,7 +130,7 @@ class Contact extends Component {
                       <Control.text
                         model=".phoneNum"
                         id="phoneNum"
-                        name="phoneNum"
+                        name="Telefone"
                         placeholder="Telefone"
                         className="form-control"
                         validators={{
@@ -187,7 +162,7 @@ class Contact extends Component {
                       <Control.text
                         model=".email"
                         id="email"
-                        name="email"
+                        name="Email"
                         placeholder="Email"
                         className="form-control"
                         validators={{
@@ -230,7 +205,7 @@ class Contact extends Component {
                     <Col md={4}>
                       <Control.select
                         model=".contactType"
-                        name="contactType"
+                        name="Preferencia de Contato"
                         className="form-control"
                       >
                         <option>Telefone</option>
@@ -246,7 +221,7 @@ class Contact extends Component {
                       <Control.textarea
                         model=".feedback"
                         id="feedback"
-                        name="feedback"
+                        name="Mensagem"
                         placeholder="Mensagem"
                         rows="10"
                         className="form-control"
