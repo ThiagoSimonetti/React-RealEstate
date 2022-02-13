@@ -5,7 +5,6 @@ import Footer from "./FooterComponent";
 import Contact from "./ContactComponent";
 import Directory from "./DirectoryComponent";
 import { connect } from "react-redux";
-import { Route } from "react-router-dom";
 
 const mapStateToProps = (state) => {
   return { homes: state.homes };
@@ -27,5 +26,4 @@ class Main extends Component {
   }
 }
 
-// export default Main;
 export default connect(mapStateToProps)(Main);

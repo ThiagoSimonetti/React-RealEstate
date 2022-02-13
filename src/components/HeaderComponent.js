@@ -8,11 +8,8 @@ import {
   NavItem,
   NavLink,
 } from "reactstrap";
-import Scroll from "react-scroll";
-import Button from "reactstrap/lib/Button";
+
 import scroller from "react-scroll/modules/mixins/scroller";
-// import NavbarText from "reactstrap/lib/NavbarText";
-// import { NavLink } from "react-router-dom";
 
 class Header extends Component {
   constructor(props) {
@@ -94,10 +91,10 @@ class Header extends Component {
           <div>
             <a
               className="whatsapp-navlink"
-              href="https://wa.me/14088496470"
+              href="https://wa.me/5511991650573"
               target="_blank"
             >
-              <i className="fa fa-whatsapp"></i> (408) 849-6470
+              <i className="fa fa-whatsapp"></i> (11) 99165-0573
             </a>
           </div>
         </Collapse>

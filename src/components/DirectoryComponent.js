@@ -74,7 +74,7 @@ class RenderDirectoryItem extends Component {
           </CardFooter>
         </Card>
         <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
-          <ModalHeader toggle={this.toggleModal}>Fotos</ModalHeader>
+          <ModalHeader toggle={this.toggleModal}>Mais Fotos</ModalHeader>
           <ModalBody>
             {this.props.home.images.map((img, i) => {
               console.log("image arr", img);
