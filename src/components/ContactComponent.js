@@ -59,7 +59,7 @@ class Contact extends Component {
                 <Form
                   model="feedbackForm"
                   onSubmit={(values) => this.handleSubmit(values)}
-                  action="https://formsubmit.co/tbtsimon7@gmail.com"
+                  action="https://formsubmit.co/wdm2007@terra.com.br"
                   method="POST"
                 >
                   <Row className="form-group">
