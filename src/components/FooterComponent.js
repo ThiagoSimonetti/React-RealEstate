@@ -32,14 +32,13 @@ function Footer(props) {
               className="btn btn-link text-nowrap"
               href="mailto:wdm2007@terra.com.br"
             >
-              <i className="fa fa-envelope-o" />
-              wdm2007@terra.com.br
+              <i className="fa fa-envelope-o" /> wdm2007@terra.com.br
             </a>
           </div>
           <div className="col text-center mt-4">
             <p>
-              &copy; 2022 Built with ❤️ in California by Thiago and Washington.
-              All rights reserved.
+              &copy; 2022 Built with ❤️ by Thiago and Washington. All rights
+              reserved.
             </p>
           </div>
         </div>

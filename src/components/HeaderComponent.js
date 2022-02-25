@@ -37,7 +37,16 @@ class Header extends Component {
         // className="bg-trasparent"
         className="bg-navbar"
       >
+        <NavbarBrand className="mr-auto" href="/">
+          <img
+            src="/assets/images/logo2.png"
+            height="30"
+            width="30"
+            alt="Dela Marta Imóveis Logo"
+          />
+        </NavbarBrand>
         <NavbarBrand
+          className="px-2"
           href="/"
           // onClick={() =>
           //   scroller.scrollTo("home_id", {
@@ -46,16 +55,9 @@ class Header extends Component {
           //   })
           // }
         >
-          WdM Imóveis
+          {"   "}
+          Dela Marta Imóveis
         </NavbarBrand>
-        {/* <NavbarBrand className="mr-auto" href="/">
-              <img
-                src="/assets/images/logo.png"
-                height="30"
-                width="30"
-                alt="NuCamp Logo"
-              />
-            </NavbarBrand> */}
         <NavbarToggler onClick={this.toggleNav} />
         <Collapse isOpen={this.state.isNavOpen} navbar>
           <Nav className="mx-auto" navbar>

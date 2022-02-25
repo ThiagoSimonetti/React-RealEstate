@@ -22,7 +22,7 @@ h2 {
     url(./images/sao-paulo2.jpg);
 }
 
-.section-1 {
+.home {
   margin: 0;
   padding: 30px;
   color: white;
@@ -68,6 +68,7 @@ h2 {
   /* height: 100vh; */
   /* margin-bottom: 40px; */
   background-attachment: fixed;
+  display: flex;
 }
 
 .site-footer {
