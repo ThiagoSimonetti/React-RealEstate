@@ -174,7 +174,7 @@ class Contact extends Component {
                       <input
                         type="hidden"
                         name="_next"
-                        value="https://fairyhandsdoula.com/thanks.html"
+                        value="https://delamartaimoveis.netlify.app"
                       />
 
                       <Errors

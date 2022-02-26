@@ -46,7 +46,7 @@ class Header extends Component {
           />
         </NavbarBrand>
         <NavbarBrand
-          className="px-2"
+          className="mr-auto pl-2"
           href="/"
           // onClick={() =>
           //   scroller.scrollTo("home_id", {
@@ -55,7 +55,6 @@ class Header extends Component {
           //   })
           // }
         >
-          {"   "}
           Dela Marta Imóveis
         </NavbarBrand>
         <NavbarToggler onClick={this.toggleNav} />

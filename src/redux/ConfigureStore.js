@@ -1,7 +1,7 @@
 import { createForms } from "react-redux-form";
 import thunk from "redux-thunk";
 import logger from "redux-logger";
-import { Reducer, initialState } from "./reducer";
+import { Reducer } from "./reducer";
 import { createStore, combineReducers, applyMiddleware } from "redux";
 import { InitialFeedback } from "./forms";
 

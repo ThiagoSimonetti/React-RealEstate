@@ -18,7 +18,7 @@ class Home extends Component {
                 <i className="signature">Waldemar Dela Marta</i>
                 <p className="my-5">
                   CRECI-SP: 20.546 <br></br> Tel: (11) 3731-5997 Cel: 99165-0573
-                  Claro/WhatApp 24hs
+                  Claro/WhatsApp 24hs
                 </p>
               </div>
             </div>
