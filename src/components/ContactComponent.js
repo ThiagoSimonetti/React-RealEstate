@@ -59,8 +59,6 @@ class Contact extends Component {
                 <Form
                   model="feedbackForm"
                   onSubmit={(values) => this.handleSubmit(values)}
-                  action="https://formsubmit.co/tbtsimon7@gmail.com"
-                  method="POST"
                 >
                   <Row className="form-group">
                     {/* <Label htmlFor="firstName" md={2}>
@@ -170,13 +168,6 @@ class Contact extends Component {
                           validEmail,
                         }}
                       />
-
-                      <input
-                        type="hidden"
-                        name="_next"
-                        value="https://realestatecompany.netlify.app"
-                      />
-
                       <Errors
                         className="bg-danger text-white rounded"
                         model=".email"
