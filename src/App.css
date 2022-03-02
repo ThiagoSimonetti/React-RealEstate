@@ -32,17 +32,8 @@ h2 {
   background-position: center;
   height: 100vh;
   display: flex;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
 }
-
-/* .jumbotron {
-  color: white;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(./images/sao-paulo2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-} */
 
 .whatsapp-navlink {
   color: white;
@@ -55,10 +46,6 @@ h2 {
 
 .whatsapp-navlink i {
   font-size: 18px;
-}
-
-.btn-outline-success {
-  color: white;
 }
 
 .hero-text-box {
@@ -75,9 +62,7 @@ h2 {
     url(./images/sao-paulo1.jpg);
   background-size: cover;
   background-position: center;
-  /* height: 100vh; */
-  /* margin-bottom: 40px; */
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   display: flex;
 }
 

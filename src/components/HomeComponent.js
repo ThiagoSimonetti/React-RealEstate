@@ -15,11 +15,7 @@ class Home extends Component {
                   de documentação imobiliária. Estou pronto a atendê-lo!
                 </p>
 
-                <i className="signature">Waldemar Dela Marta</i>
-                <p className="my-5">
-                  CRECI-SP: 20.546 <br></br> Tel: (11) 3731-5997 Cel: 99165-0573
-                  Claro/WhatsApp 24hs
-                </p>
+                <i className="signature">Thiago Simonetti</i>
               </div>
             </div>
           </div>

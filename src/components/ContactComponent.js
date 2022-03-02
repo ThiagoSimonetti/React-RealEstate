@@ -45,21 +45,21 @@ class Contact extends Component {
         <div className="contact-us" id="contact_id">
           <div className="container">
             <div className="row">
-              <div className="col text-center py-5">
-                <h1 className="title-padding">Contato</h1>
+              <div className="col text-center pt-5">
+                <h1 className="title-padding">Contact</h1>
               </div>
             </div>
 
             <div className="row row-content">
               <div className="col-12 text-center">
-                <h3>Estamos Prontos à Atende-lo</h3>
+                <h3>We are here for You</h3>
                 <br />
               </div>
               <div className="col-md-10">
                 <Form
                   model="feedbackForm"
                   onSubmit={(values) => this.handleSubmit(values)}
-                  action="https://formsubmit.co/wdm2007@terra.com.br"
+                  action="https://formsubmit.co/tbtsimon7@gmail.com"
                   method="POST"
                 >
                   <Row className="form-group">
@@ -70,8 +70,8 @@ class Contact extends Component {
                       <Control.text
                         model=".firstName"
                         id="firstName"
-                        name="Nome"
-                        placeholder="Nome"
+                        name="First Name"
+                        placeholder="First Name"
                         className="form-control"
                         validators={{
                           required,
@@ -100,8 +100,8 @@ class Contact extends Component {
                       <Control.text
                         model=".lastName"
                         id="lastName"
-                        name="Sobrenome"
-                        placeholder="Sobrenome"
+                        name="Last Name"
+                        placeholder="Last Name"
                         className="form-control"
                         validators={{
                           required,
@@ -130,8 +130,8 @@ class Contact extends Component {
                       <Control.text
                         model=".phoneNum"
                         id="phoneNum"
-                        name="Telefone"
-                        placeholder="Telefone"
+                        name="Phone"
+                        placeholder="Phone"
                         className="form-control"
                         validators={{
                           required,
@@ -170,11 +170,11 @@ class Contact extends Component {
                           validEmail,
                         }}
                       />
-                      {/* falta criar um component com mensagem de sucesso e um botao pra retornar ao menu inicial */}
+
                       <input
                         type="hidden"
                         name="_next"
-                        value="https://delamartaimoveis.netlify.app"
+                        value="https://realestatecompany.netlify.app"
                       />
 
                       <Errors
@@ -198,7 +198,7 @@ class Contact extends Component {
                             name="agree"
                             className="form-check-input"
                           />{" "}
-                          <strong>Preferência de Contato?</strong>
+                          <strong>May we contact you?</strong>
                         </Label>
                       </div>
                     </Col>
@@ -208,7 +208,7 @@ class Contact extends Component {
                         name="Preferencia de Contato"
                         className="form-control"
                       >
-                        <option>Telefone</option>
+                        <option>Phone</option>
                         <option>Email</option>
                       </Control.select>
                     </Col>
@@ -221,8 +221,8 @@ class Contact extends Component {
                       <Control.textarea
                         model=".feedback"
                         id="feedback"
-                        name="Mensagem"
-                        placeholder="Mensagem"
+                        name="Message"
+                        placeholder="Message"
                         rows="10"
                         className="form-control"
                       />
@@ -231,7 +231,7 @@ class Contact extends Component {
                   <Row className="form-group mb-5">
                     <Col md={{ size: 10, offset: 2 }}>
                       <Button type="submit" color="success">
-                        Enviar
+                        Submit
                       </Button>
                     </Col>
                   </Row>

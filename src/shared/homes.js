@@ -71,4 +71,22 @@ export const HOMES = [
       "/assets/images/interior5.jpeg",
     ],
   },
+  {
+    id: 4,
+    title: "Sobrado 2 Andares",
+    featuredimage: "/assets/images/house4.jpeg",
+    address: "123 Main St., Sao Paulo",
+    bedrooms: 3,
+    bathrooms: 2,
+    featured: false,
+    description:
+      "Lorem ipsum dolor sit amet, quando eruditi tacimates eu pri. Dicta vocent democritum pri ea, per ut dicat atqui placerat. Quas soleat hendrerit at his, ut eos veritus expetendis, modus.",
+    images: [
+      "/assets/images/interior1.jpeg",
+      "/assets/images/interior2.jpeg",
+      "/assets/images/interior3.jpeg",
+      "/assets/images/interior4.jpeg",
+      "/assets/images/interior5.jpeg",
+    ],
+  },
 ];

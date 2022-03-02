@@ -30,20 +30,6 @@ class RenderDirectoryItem extends Component {
     });
   }
 
-  renderImages(images) {
-    console.log("image props", images);
-    images.map((img) => {
-      console.log("image arr", img);
-      return (
-        <CardImg
-          className="card-img-top mb-2"
-          width="100%"
-          src={img}
-          alt={img}
-        />
-      );
-    });
-  }
   render() {
     return (
       <React.Fragment>
@@ -69,12 +55,12 @@ class RenderDirectoryItem extends Component {
               className="btn btn-sm btn-success"
               onClick={this.toggleModal}
             >
-              Mais Informações
+              Additional Photos
             </Button>
           </CardFooter>
         </Card>
         <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
-          <ModalHeader toggle={this.toggleModal}>Fotos Adicionais</ModalHeader>
+          <ModalHeader toggle={this.toggleModal}>Additional Photos</ModalHeader>
           <ModalBody>
             {this.props.home.images.map((img, i) => {
               console.log("image arr", img);
@@ -88,9 +74,17 @@ class RenderDirectoryItem extends Component {
                 />
               );
             })}
-
-            {/* {this.renderImages(this.props.home.images)} */}
           </ModalBody>
+          <ModalFooter>
+            Contact us today for your next dream home.
+            <a
+              role="button"
+              className="btn btn-link text-nowrap"
+              href="tel:+(415) 123-4567"
+            >
+              <i className="fa fa-phone" /> (415) 123-4567
+            </a>
+          </ModalFooter>
         </Modal>
       </React.Fragment>
     );
@@ -114,8 +108,8 @@ function Directory(props) {
         <div className="container py-5 text-center">
           <div className="row py-lg-5">
             <div className="col-lg-6 col-md-8 mx-auto">
-              <h1 className="fw-light">Imóveis em Destaque</h1>
-              <p className="lead text-muted">
+              <h1 className="fw-light">Featured Homes</h1>
+              <p className="lead pt-3 text-muted">
                 Lorem ipsum dolor sit amet, quando eruditi tacimates eu pri.
                 Dicta vocent democritum pri ea, per ut dicat atqui placerat.
                 Quas soleat hendrerit at his, ut eos veritus expetendis, modus.

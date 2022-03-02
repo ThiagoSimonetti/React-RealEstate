@@ -37,14 +37,14 @@ class Header extends Component {
         // className="bg-trasparent"
         className="bg-navbar"
       >
-        <NavbarBrand className="mr-auto" href="/">
+        {/* <NavbarBrand className="mr-auto" href="/">
           <img
             src="/assets/images/logo2.png"
             height="30"
             width="30"
             alt="Dela Marta Imóveis Logo"
           />
-        </NavbarBrand>
+        </NavbarBrand> */}
         <NavbarBrand
           className="mr-auto pl-2"
           href="/"
@@ -55,7 +55,7 @@ class Header extends Component {
           //   })
           // }
         >
-          Dela Marta Imóveis
+          Real Estate Co
         </NavbarBrand>
         <NavbarToggler onClick={this.toggleNav} />
         <Collapse isOpen={this.state.isNavOpen} navbar>
@@ -71,7 +71,7 @@ class Header extends Component {
                   })
                 }
               >
-                Imóveis
+                Homes
               </NavLink>
             </NavItem>
             <NavItem>
@@ -85,17 +85,17 @@ class Header extends Component {
                   })
                 }
               >
-                Contato
+                Contact
               </NavLink>
             </NavItem>
           </Nav>
           <div>
             <a
               className="whatsapp-navlink"
-              href="https://wa.me/5511991650573"
+              href="https://wa.me/14151234567"
               target="_blank"
             >
-              <i className="fa fa-whatsapp"></i> (11) 99165-0573
+              <i className="fa fa-whatsapp"></i> (415) 123-4567
             </a>
           </div>
         </Collapse>
